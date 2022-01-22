@@ -1,0 +1,165 @@
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 15px;
+}
+
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, .skills-list {
+font-family: 'Inknut Antiqua', serif;
+}
+
+img {
+  /*this is the limiting the wifth of the image co
+  it takes 100% wifth of their paraent*/
+  max-width: 100%
+}
+
+nav {
+  background-color: #e6ecff;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 15px; /*0 dla gora dół, 15 prawo lewo*/
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+ nav, ul {
+   margin: 0 auto;
+   text-align: center;
+   padding: 30px;
+ }
+ header {
+   top: 80px;
+   position: relative;
+   margin-bottom: 220px;
+   background-image: url('../img/background.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-y: -145px;
+}
+h1 {
+  font-size: 90px;
+  line-height: 130%;
+  font-weight: normal;
+  -webkit-text-fill-color: #ce7773a1;
+  -webkit-text-stroke: 1px;
+  background: linear-gradient(#ffffff8a, #fbcbc9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #693f2b9c;
+
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 130%;
+  font-weight: normal;
+}
+
+
+ul li {
+  list-style: none;
+  margin: 10px 0px;
+}
+li {
+  list-style: none;
+  margin: 10px 0px;
+}
+
+p {
+  line-height: 150%;
+}
+.button {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 10px 30px;
+  margin-top: 40px;
+  display: inline-block;
+  border-radius: 20px;
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.button:hover {
+  background: black;
+  color: white;
+}
+
+figcaption {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.intro-img {
+  box-shadow: 1px 2px 30px rgba(0, 0, 0,0.2); /* place wifth how blure and color*/
+  margin-top: 60px;
+
+}
+
+.skills-list {
+text-align: center;
+font-size: 50px;
+line-height: 150%;
+margin-bottom: 130px;
+  }
+
+.project {
+  margin: 30px 0;
+  padding: 50px;
+}
+
+.blue {
+  background-color: #e6ecff;
+}
+
+.project .button {
+  margin-top: 10px;
+
+}
+
+footer {
+  text-align: center;
+  margin: 100px;
+}
+
+footer h2 {
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+
+.right-alignment {
+  text-align: right;
+}
+
+li.empty {
+  width: 90px;
+  border-top: 1px solid black;
+  top: -5px;
+  position: relative;
+
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+::selection {
+
+background-color: salmon;
+}
